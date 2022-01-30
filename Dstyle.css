@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(img/profil.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+
+}
+
+h1{
+    color: darkgreen;
+    
+
+}
+.navbar{ 
+    width: 860px;
+    margin: 0 auto;
+}
+.navbar ul {
+    list-style: none;
+    padding-left: 180px;
+    margin-top: 2%;
+}
+.navbar ul li{
+    color: white;
+    background: rgba(172, 252, 255, 0);
+    width: 170px;
+    border: 2px solid rgb(102 59 59 / 38%);
+    border-radius:10px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    font-family: big john;
+    text-shadow: 0 0 5px rgba(5, 172, 88, 0.192), 0 0 4px rgb(8, 169, 243),0 0 6px white, 0 1px 3px darkblue;
+}
+.navbar ul li:hover{
+    background: rgb(47 113 153);
+}
+.navbar ul ul{
+    display: none;
+    margin-left: -180px;
+}
+.navbar ul :hover>ul {
+    display: block;
+}
